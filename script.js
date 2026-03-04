@@ -77,5 +77,17 @@ addBtn.addEventListener("click", () => {
         <hr>
     `;
     teamDiv.appendChild(pokemonCard);
+    resetDisplay();
 });
 
+function resetDisplay() {
+    currentPokemon = null;
+    pokemonName.textContent = "";
+    pokemonImage.src = "poke.png";
+    pokemonCry.src = "";
+    pokemonCry.load();
+    moveDropdowns.forEach(select => {
+        select.innerHTML = "";
+    });
+    document.getElementById("pokemonInput").value = "";
+}
