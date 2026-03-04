@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pokemonInput {
+    width: 220px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#searchBtn {
+    padding: 5px 10px;
+}
+
+#pokemonImage {
+    width: 250px;
+    margin: 20px 0;
+    
+}
+
+#pokemonCry {
+    margin: 20px 0;
+}
+
+#pokemonDisplay select {
+    width: 200px;
+    margin: 5px 10px;
+}
+
+#pokemonDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#move1, #move2, #move3, #move4 {
+    display: inline-block;
+}
+
+#addBtn {
+    margin-top: 15px;
+    padding: 6px 15px;
+    font-size: 14px;
+}
+
+#team {
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#team > div {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+#team > div:last-child {
+    border-bottom: none;
+}
+
+#team img {
+    width: 90px;
+    margin-right: 20px;
+}
+
+#team ul {
+    margin: 0;
+}
